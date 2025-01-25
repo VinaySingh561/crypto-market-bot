@@ -1,35 +1,55 @@
-# 🚀 Crypto Market Bot
+# 🤖 Crypto Market Analysis Bot
 
-A sophisticated cryptocurrency market analysis bot that leverages AI to provide real-time market insights and WhatsApp notifications.
+An intelligent cryptocurrency trading bot that combines real-time market data with AI-powered analysis to deliver insights via WhatsApp.
 
-## ✨ Features
+## 🌟 Overview
 
-- 📊 Real-time cryptocurrency price tracking
-- 🤖 AI-powered market analysis using DeepSeek
-- 📱 Automated WhatsApp notifications
-- 📈 Support for multiple cryptocurrencies (BTC, ETH, DOGE)
-- ⏰ Hourly market updates
-- 📊 Detailed price, volume, and trend analysis
+This bot continuously monitors cryptocurrency markets (BTC, ETH, DOGE), analyzes trends using DeepSeek AI, and sends automated WhatsApp updates to keep you informed about market movements and opportunities.
 
-## 🛠️ Technologies Used
+## 🚀 Key Features
 
-- Python 3.x
-- yfinance - For fetching crypto market data
-- DeepSeek AI - For market analysis
-- Twilio - For WhatsApp integration
-- Schedule - For automated updates
-- python-dotenv - For environment management
+- **Real-time Monitoring**: Track live cryptocurrency prices and market movements
+- **AI Analysis**: Leverage DeepSeek AI for intelligent market insights
+- **Automated Alerts**: Receive WhatsApp notifications with market updates
+- **Multi-Currency Support**: Track BTC, ETH, DOGE, and more
+- **Scheduled Updates**: Hourly market analysis and notifications
+- **Comprehensive Reports**: Get detailed price, volume, and trend information
 
-## 🚀 Getting Started
+## 🛠️ Tech Stack
 
-### Prerequisites
+- **Python 3.x**: Core programming language
+- **yfinance**: Real-time cryptocurrency data fetching
+- **DeepSeek AI**: Advanced market analysis
+- **Twilio**: WhatsApp integration
+- **Schedule**: Automated task management
+- **python-dotenv**: Environment variable management
 
-- Python 3.x
-- pip package manager
-- DeepSeek API key
-- Twilio account credentials
-- WhatsApp business account
+## ⚙️ Setup & Installation
 
-### Installation
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/VinaySingh561/crypto-market-bot.git
+   cd crypto-market-bot
+   ```
 
-1. Clone the repository:
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Configure Environment Variables**
+   Create a `.env` file with:
+   ```env
+   DEEPSEEK_API_KEY=your_api_key
+   TWILIO_ACCOUNT_SID=your_sid
+   TWILIO_AUTH_TOKEN=your_token
+   WHATSAPP_FROM=your_twilio_number
+   WHATSAPP_TO=your_whatsapp_number
+   ```
+
+4. **Run the Bot**
+   ```bash
+   python traindgapp.py
+   ```
+
+## 📊 Sample Output
